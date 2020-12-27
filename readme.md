@@ -1,4 +1,11 @@
-gulp-tsb
+# gulp-tsb
+
+Fork of [`jrieken/gulp-tsb`](https://github.com/jrieken/gulp-tsb):
+
+- Reset `master` branch to `release/4.0` (previous `master` is available at `release/3.0`)
+- Applied <https://github.com/jrieken/gulp-tsb/pull/56>
+- Updated `typescript` to `^4.1.3` (to support new `jsx` related config options)
+
 ===============
 
 [![Build Status](https://travis-ci.org/jrieken/gulp-tsb.svg?branch=master)](https://travis-ci.org/jrieken/gulp-tsb)

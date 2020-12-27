@@ -1,8 +1,8 @@
 {
-  "name": "gulp-tsb",
-  "version": "4.0.5",
-  "author": "Johannes Rieken <johannes.rieken@gmail.com>",
-  "description": "A gulp plugin for very fast TypeScript compilation.",
+  "name": "@pkerschbaum/gulp-tsb",
+  "version": "4.1.0",
+  "author": "Patrick Kerschbaum <patrick.kerschbaum@gmail.com>",
+  "description": "A gulp plugin for very fast TypeScript compilation. Fork of \"gulp-tsb\" (of Johannes Rieken <johannes.rieken@gmail.com>).",
   "main": "./lib",
   "license": "MIT",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jrieken/gulp-tsb.git"
+    "url": "git+https://github.com/pkerschbaum/gulp-tsb.git"
   },
   "keywords": [
     "gulpplugin",
@@ -44,5 +44,12 @@
   },
   "peerDependencies": {
     "typescript": "^4.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/pkerschbaum/gulp-tsb/issues"
+  },
+  "homepage": "https://github.com/pkerschbaum/gulp-tsb#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
